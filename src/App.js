@@ -1,12 +1,12 @@
-import {Header} from '../src/components/Header'
-import Grid from '../src/components/Grid'
 import './App.css';
+import Header from './components/Header';
+import Grid from './components/Grid';
 
 function App() {
   return (
     <div className="App">
-    <Header />
-    <Grid />
+      <Header />
+      <Grid />
     </div>
   );
 }
